@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: hsl(0, 0%, 100%);
+}
+
+
+  .card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    margin: 100px;
+    padding: 30px;
+    border-radius: 25px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    #image-equilibrum{
+      border-radius: 25px;
+      width : 100%;
+
+    }
+
+    .equil{
+        width: 400px;
+        margin: 30px;
+        padding: 30px;
+      }
+
+        .crypto{
+          color: hsl(178, 100%, 50%);
+          text-align: left;
+          display: inline-block;
+          width: 160px;
+        }
+
+        .days{
+          color: hsl(215, 51%, 70%);
+          text-align: right;
+          display: inline-block;
+          width: 160px;
+        }
+
+          hr{
+            color: hsl(215, 32%, 27%);
+          }
+
+          p{
+            color: hsl(215, 51%, 70%);
+          }
+
+        .creator-text{
+          color: hsl(215, 51%, 70%);
+          display: inline-block;
+        }
+
+        .creator-name{
+          color: hsl(0, 0%, 100%);
+          display: inline-block;
+          }
+
+          .creator-text img{
+          width: 30px;
+          height: 30px;
+          float: left;
+          }
+
+          .attribution { font-size: 11px; text-align: center; }
+
+          .attribution a { color: hsl(228, 45%, 44%); }
+
+          .attr:hover{ color: purple;}
